@@ -1,9 +1,9 @@
 
 function colorSwitcher() {
 
-    const colors = document.getElementById('colors').value;
+    const color = document.getElementById('color').value;
 
-    document.getElementById('test').style.backgroundColor = colors;
+    document.getElementById('test').style.backgroundColor = color;
 
    
 }
